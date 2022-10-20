@@ -12,3 +12,18 @@ const getComputerChoice = () => {
 }
     console.log(getComputerChoice());
 
+function playRound(playerSelection, computerSelection){
+if (playerSelection == "rock")
+if (computerSelection == "Rock"){
+    return("It's a tie!")
+}
+else if (computerSelection == "Scissors"){
+    return("Rock beats Scissors, You won!")
+}
+else if (computerSection == "Paper"){
+    return("Paper beats Rock, You lose :(")
+}
+}
+
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
